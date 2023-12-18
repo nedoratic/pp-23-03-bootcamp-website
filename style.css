@@ -1,3 +1,11 @@
+/* GENERAL */
+
+body::before {
+	display: block;
+	content: "";
+	height: 60px;
+}
+
 /* NEWSLETTER */
 
 @media (min-width: 768px) {
