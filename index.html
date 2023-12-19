@@ -47,13 +47,51 @@
 					<div>
 						<h1>Forging <span class="fw-bolder text-decoration-underline text-warning">Employable</span> Frontend Developers <span class="fw-bolder text-decoration-underline text-warning">in Less Than 12 Months</span>.</h1>
 						<p class="lead my-4">Transform your skills at Dev Forge Camp, mastering HTML, CSS, JavaScript, and React in less than a year. Join now for a career-ready frontend journey.</p>
-						<button class="btn btn-primary btn-lg">Join The Camp</button>
+						<button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#join">Join The Camp</button>
 					</div>
 					<img class="img-fluid w-50 d-none d-sm-block" src="./img/hero.svg" alt="" />
 				</div>
 			</div>
 		</section>
 		<!-- Hero End -->
+
+		<!-- Modal Start -->
+		<div class="modal fade" id="join" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="joinLabel">Join The Dev Forge Camp</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p class="lead">Fill Out This Form and We Will Get Back to You</p>
+						<form>
+							<div class="mb-3">
+								<label class="col-form-label" for="first-name">First Name: </label>
+								<input class="form-control" id="first-name" type="text" />
+							</div>
+							<div class="mb-3">
+								<label class="col-form-label" for="last-name">Last Name: </label>
+								<input class="form-control" id="last-name" type="text" />
+							</div>
+							<div class="mb-3">
+								<label class="col-form-label" for="email`">Email: </label>
+								<input class="form-control" id="email" type="email" />
+							</div>
+							<div class="mb-3">
+								<label class="col-form-label" for="phone">Phone: </label>
+								<input class="form-control" id="phone" type="number" />
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal End -->
 
 		<!-- Newsletter Start -->
 		<section class="bg-primary text-light p-5">
